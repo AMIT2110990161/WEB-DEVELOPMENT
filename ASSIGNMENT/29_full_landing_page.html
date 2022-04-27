@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .upper {
+        background: #333 url(code.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 450px;
+        margin: -8px;
+        text-align: center;
+        display: flex;
+        opacity: 0.8;
+        flex-direction: column;
+        justify-content: center;
+        z-index: -1;
+        align-items: center;
+    }
+
+    .upper h1 {
+        font-size: 40px;
+        color: white;
+    }
+
+    .upper p {
+        color: white;
+        margin-top: -25px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .upper button {
+        height: 40px;
+        width: 145px;
+        font-size: 21px;
+        background-color: rgba(2, 2, 2, -2);
+        border: 2px solid #c0a5a5;
+        color: white;
+        border-radius: 6px;
+    }
+
+    .upper button:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .upper1 {
+        background-color: #eaeaea;
+        margin: -8px;
+        margin-top: -21px;
+        text-align: center;
+        height: 230px;
+        padding-top: 25px;
+    }
+
+    .upper1 .text {
+        display: flex;
+        justify-content: space-evenly;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    .upper2 {
+        background-color: black;
+        margin: -8px;
+        height: 440px;
+        margin-top: -21px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 40px;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        width: 280px;
+        height: 400px;
+        color: black;
+        background-color: white;
+        text-align: center;
+    }
+
+    .box1 {
+        margin-left: 270px;
+    }
+
+    .box3 {
+        margin-right: 270px;
+    }
+
+    .upper2 img {
+        width: 280px;
+        height: 165px;
+    }
+
+    .upper3 {
+        margin: -8px;
+        margin-top: -22px;
+        text-align: center;
+        height: 200px;
+    }
+
+    .upper3 h1 {
+        margin-top: 80px;
+        font-size: 50px;
+    }
+
+    .upper3 p {
+        font-size: 20px;
+    }
+
+    .upper4 {
+        display: flex;
+        margin: -8px;
+        margin-top: -22px;
+        text-align: center;
+        height: 250px;
+    }
+
+    .upper4 p {
+        font-size: 18px;
+    }
+
+    .about1,
+    .about2 {
+        display: inline;
+        width: 50%;
+        padding: 10px 50px;
+        color: white;
+    }
+
+    .about1 {
+        background-color: #2690d4;
+    }
+
+    .about2 {
+        background-color: #333;
+    }
+
+    .foot {
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        margin: -8px;
+        margin-top: 8px;
+        font-weight: 100;
+        padding: 16px 10px;
+
+    }
+
+    .foot a {
+        text-decoration: none;
+        color: blue;
+    }
+</style>
+
+<body>
+    <div class="upper">
+        <h1>Welcome to Acme Web Solutions</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum error earum soluta voluptatum
+            nisi<br>laboriosam eos saepe asperiores dolorum.
+        </p>
+        <button id="read" onclick="run()">Read More</button>
+    </div>
+    <div class="upper1">
+        <h1>Web & Application Development</h1>
+        <div class="text">
+            <div class="text1">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Saepe sint eligendi
+                possimus? Unde officiis <br> magnam laborum ipsa distinctio odio, vero dolores</div>
+
+            <div class="text2">dicta aliquam aperiam repellendus. Perferendis <br> officiis deserunt velit voluptasnobis
+                sequi animi <br> totam, accusantium, ex eius quia, natus quo?</div>
+        </div>
+    </div>
+    <div class="upper2">
+        <div class="box1">
+            <img src="https://static.pexels.com/photos/574077/pexels-photo-574077.jpeg" alt="">
+            <h2>Web Development</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, enim! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Ipsum sed illo nobis nisi reprehenderit mollitia laudantium assumenda quo, aliquam
+                perspiciatis.</p>
+        </div>
+        <div class="box2">
+            <img src="https://static.pexels.com/photos/261628/pexels-photo-261628.jpeg" alt="">
+            <h2>Mobile Applications</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, enim! Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit. Vel odio quidem porro nisi quasi assumenda amet consequuntur iste rem
+                placeat.</p>
+        </div>
+        <div class="box3">
+            <img src="https://static.pexels.com/photos/265087/pexels-photo-265087.jpeg" alt="">
+            <h2>Tech Marketing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, enim! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Amet praesentium aut quos tempore cum libero recusandae iusto, pariatur facere?
+                Aspernatur.</p>
+        </div>
+    </div>
+    <div class="upper3">
+        <h1>We handle all of your digital needs</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita <br> recusandae quis fugiat saepe deleniti,
+            odio
+            ducimus perspiciatis ex quo, suscipit enim ipsa sequi magni laudantium.</p>
+    </div>
+    <div class="upper4">
+        <div class="about1">
+            <h1 id="hide1" onclick="contact()">Contact Us</h1>
+            <p id="pass1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum facere assumenda error dolorum suscipit
+                dolor incidunt voluptatibus temporibus corrupti, minus, cum in repudiandae quod itaque ex expedita illo?
+                Aspernatur, necessitatibus?</p>
+            <span>contact@acmewebsolutions.test</span>
+        </div>
+        <div class="about2">
+            <h1 id="hide2" onclick="about()">About Our Company</h1>
+            <p id="pass2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum optio repudiandae culpa harum?
+                Quo
+                odit, ullam eius corrupti quidem perferendis hic itaque aspernatur, totam minus dolores consequatur?
+                Aperiam, doloribus!</p>
+        </div>
+    </div>
+    <div class="foot">
+        <h3>Acme Web Solutions</h3>
+        <h3>Project By <a href="">Traversy Media</a></h3>
+    </div>
+</body>
+<script>
+    function contact(){
+        let hide1 = document.getElementById('hide1')
+        if(pass1.style.display != 'none'){
+            pass1.style.display = 'none'
+        }
+        else{
+            pass1.style.display = 'block'
+        }
+    }
+    function about(){
+        let hide2 = document.getElementById('hide2')
+        if(pass2.style.display != 'none'){
+            pass2.style.display = 'none'
+        }
+        else{
+            pass2.style.display = 'block'
+        }
+    }
+    function run(){
+        alert("Pelese scroll down your page")
+    }
+</script>
+
+</html>

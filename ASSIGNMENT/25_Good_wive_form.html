@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Vibes Form</title>
+</head>
+<style>
+    body {
+        text-align: center;
+        background-color: #a9d7e9;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .fullbody {
+        border-radius: 10px;
+        background-color: #f3f3f3;
+        display: block;
+        width: 750px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .in1 {
+        margin-left: -190px;
+    }
+
+    .fullbody .input1 input {
+        width: 240px;
+        height: 25px;
+        margin-left: 15px;
+        border-radius: 5px;
+    }
+
+    .in2 {
+        margin-left: -88px;
+    }
+
+    .fullbody .input1 select {
+        width: 250px;
+        height: 32px;
+        margin-left: 15px;
+        border-radius: 5px;
+    }
+    .input2 p{
+        margin-left: -440px;
+    }
+    .input2 input{
+        margin: 2px 2px 2px 2px;
+    }
+</style>
+
+<body>
+    <h1>Good Vibes Form</h1>
+    <div class="fullbody">
+        <h2>Tell us something positive that happened to you today.</h2>
+        <div class="input1">
+            NAME
+            <input type="text" placeholder="Enter Your Name"> <br> <br>
+            E -mail
+            <input type="text" placeholder="Enter Your E-mail Address"> <br> <br>
+            <div class="in1">
+                On a scale of 1-10, how good was it?
+                <input type="number" placeholder="Enter a Number between 1 and 10" min="1" max="10">
+            </div><br>
+            <div class="in2">
+                Where did it happen?
+                <select name="" id="">
+                    <option value="">At home</option>
+                    <option value="">On my commute </option>
+                    <option value="">At work</option>
+                    <option value="">On the street</option>
+                    <option value="">Other</option>
+                </select>
+            </div>
+        </div> 
+        <div class="input2">
+            <p>At what time of day did it happen?</p>
+            <input type="radio" id="in">Morning <br>
+            <input type="radio" id="in">Afternoon <br>
+            <input type="radio" id="in">Evening <br>
+        </div>
+        What emotions did you experience?<br>
+        (Select all that apply)
+        <input type="checkbox">Excited <br>
+        <input type="checkbox">Humbled <br>
+        <input type="checkbox">Elated <br>
+        <input type="checkbox">Loved <br>
+        <input type="checkbox">Enthusiastic <br> <br>
+        Please describe your positive experience.
+        <textarea name="" id="" cols="30" rows="5"></textarea> <br> <br>
+        <button>Submit</button>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #abc {
+        color: red;
+    }
+    
+    #xyz {
+        color: antiquewhite;
+    }
+    
+    #mno {
+        color: blue;
+    }
+</style>
+
+<body>
+    name <input type="text1"> <br> <br> class <input type="text"> <br> <br> Subject <input type="text"> <br> <br>
+    <button onclick="run()">SUBMIT</button> <br> <br>
+    <span id="abc"></span> <br>
+    <span id="xyz"></span> <br>
+    <span id="mno"></span> <br>
+</body>
+<script>
+    function run() {
+        abc.innerHTML = "text1"
+        xyz.innerHTML = "CLASS"
+        mno.innerHTML = "SUBJECTS"
+    }
+</script>
+
+</html>

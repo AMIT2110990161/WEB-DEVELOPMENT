@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Can Change HTML Styles (CSS)</title>
+</head>
+<body>
+    <h1>what can javascript do?</h1>
+    <p id="change">javascript can change html content</p>
+    <button onclick="change()">click me</button>
+</body>
+<script>
+    function change(){
+        document.getElementById('change').style.fontSize = "55px";
+    }
+</script>
+</html>

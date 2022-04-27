@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Can Change HTML Attribute Values</title>
+</head>
+<body>
+    <img id = "bulb" src="bulboff.gif" alt="">
+    <button onclick="bulbon()">make bulb glow</button>
+    <button onclick="bulboff()">make bulb off</button>
+</body>
+<script>
+    function bulbon(){
+        document.getElementById('bulb').src = "bulbon.gif"
+    }
+    function bulboff(){
+        document.getElementById('bulb').src = "bulboff.gif"
+    }
+</script>
+</html>

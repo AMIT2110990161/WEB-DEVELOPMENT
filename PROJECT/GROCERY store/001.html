@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+</head>
+<style>
+    body{
+    margin:0;
+    padding:0;
+    
+
+}
+.box{
+    width: 500px;
+    height: 450px;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    padding: 70px 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.avatar{
+    width: 160px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -74px;
+    left: calc(45% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 25px 0 20px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.box input{
+    width:100%;
+    margin-bottom:20px;
+}
+.box input[type="text"],input[type="password"]
+{
+    border:none;
+    border-bottom:1px solid #fff;
+    background-color:transparent;
+    outline:none;
+    height:40px;
+    color:#fff;
+    font-size:20px;
+    height: 40px;
+
+}
+.box input[type="submit"]{
+    border:none;
+    outline:none;
+    background-color:#fb2525;
+    color:#fff;
+    font-size:18px;
+    border-radius:20px;
+    transition:0.4s ease;
+
+}
+.box input[type="submit"]:hover{
+    cursor:pointer;
+    background-color:#ffc107;
+    color:#000'
+
+}
+.box a{
+  text-decoration:none;
+  font-size:12px;
+  line-height:20px;
+  color:darkgrey;
+  transition:0.4s ease;
+}
+
+.box a:hover{
+    color:#ffc107;
+
+}
+</style>
+<body>
+    <div class="box">
+        <img src="logggggg.jfif" class="avatar">
+        <h1>Login here</h1>
+        <form>
+            <input type="text" name="" placeholder="Enter Username">
+            <input type="Password" placeholder="Enter password">
+            <input type="Submit" value="Login">
+            <a href="#">Forgot Password?</a>
+        </form>
+    </div>
+</body>
+</html>

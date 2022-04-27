@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="height">
+    <input id="base">
+    <button onclick="area()">submit</button>
+    <span id="run"></span>a
+</body>
+<script>
+    function area(){
+        var h,b,c;
+        
+        h = number(document.getElementById('height').value);
+        b = number(document.getElementById('base').value);
+        c = 1/2*b*h;
+        document.getElementById("run").value=c;
+    }
+</script>
+</html>

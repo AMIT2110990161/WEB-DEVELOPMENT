@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survay Form</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Bebas+Neue&family=Mochiy+Pop+P+One&family=Oswald:wght@200&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+
+</head>
+<style>
+    .oterregion {
+        background-color: lightgoldenrodyellow;
+        margin: 10px;
+        padding: 7px;
+        border-radius: 10px;
+    }
+
+    .innerregion {
+        background-color: white;
+        padding: 15px;
+        margin: 72px;
+        border-radius: 10px;
+        MARGIN-TOP: 10px;
+        margin-left: 215px;
+        margin-right: 215px;
+        border: 2px solid;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .inner1 p {
+        margin-top: -27px;
+        margin-left: 63px;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+
+    .inner2 {
+        border: 2px solid grey;
+        padding: 20px;
+        margin: 2px;
+        margin-top: 10px;
+    }
+
+    .inner3 {
+        border: 2px solid grey;
+        padding: 20px;
+        margin: 2px;
+        margin-top: 10px;
+    }
+
+    .inner4 h4 {
+        display: inline;
+        font-family: 'Oswald', sans-serif;
+        color: black;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    .inner4 button {
+        display: inline;
+        width: 126px;
+        margin: auto;
+        height: 35px;
+        background-color: red;
+        color: white;
+        font-size: 21px;
+        border-radius: 5px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .inner5 button {
+        display: block;
+        width: 225px;
+        margin: auto;
+        height: 43px;
+        margin-top: 25px;
+        background-color: red;
+        color: white;
+        font-size: 21px;
+        border-radius: 2px;
+        font-family: 'Baloo Bhai 2', cursive;
+
+    }
+</style>
+
+<body>
+    <div class="oterregion">
+        <div class="innerregion">
+            <div class="inner1">
+                <h2>APPLICATION FOR PERMISSION TO DATE MY DAUGTER</h2>
+                <h3>NOTE:<p>Form is to be completed at least 21 days prior to date</p>
+                </h3>
+                <fieldset>
+                    <legend>Personal details</legend>
+                    NAME
+                    <input type="text" placeholder="Enter your Name"> <br> <br>
+                    Address
+                    <input type="text" placeholder="Enter your Address"> <br> <br>
+                    E-mail
+                    <input type="text" placeholder="Enter your E-mail"> <br> <br>
+                    Phone Number:
+                    <input type="text" placeholder="Enter your Phone Number"> <br> <br>
+                    IQ
+                    <input type="text" placeholder="Enter your IQ"> <br> <br>
+                    Gender <br> <br>
+                    <input type="radio">male <br>
+                    <input type="radio">Female <br>
+                    <input type="radio">other <br>
+                    Date of proposed outing:
+                    <input type="date">
+                </fieldset>
+            </div>
+            <div class="inner2">
+                CHEAK ALL THAT APPLY <br> <br>
+                <input type="checkbox">I have tattos and/or piercings <br>
+                <input type="checkbox">I am more than 2 years older than my daughter <br>
+                <input type="checkbox">I own a panel van or V8 ute <br>
+                <input type="checkbox">I work full-time <br>
+                <input type="checkbox">My parents are rich <br>
+                <input type="checkbox">Is the date at a well lit public location <br>
+            </div>
+            <div class="inner3">
+                Political Persuasion:
+                <select name="" id="">
+                    <option value="">Left wing</option>
+                    <option value="">Right wing</option>
+                    <option value="">Conservative</option>
+                    <option value="">Nazi</option>
+                </select>
+                Education Level Completed:
+                <select name="" id="">
+                    <option value="">University</option>
+                    <option value="">Collage</option>
+                    <option value="">High school</option>
+                    <option value="">None</option>
+                </select>
+            </div>
+            <div class="inner4">
+                <fieldset>
+                    <legend>Essay Section</legend>
+                    <p>In 50 words or more explain why you want to date my daughter</p>
+                    <textarea name="" id="" cols="60" rows="8" placeholder="Explain here"></textarea>
+                    <p>Please upload contact details for 2 references</p>
+                    <textarea name="" id="" cols="60" rows="8" placeholder="contact detail"></textarea> <br>
+                    <h4>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here:</h4>
+                    <button>Attach files</button>
+                </fieldset>
+            </div>
+            <div class="inner5">
+                <button>Send Your Application</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

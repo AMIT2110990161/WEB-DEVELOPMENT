@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAGA colour flipper</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="03_colour_flipper.css">
+<body>
+    <div class="container">
+        <div class="upper">
+            <div class="right">RAGA Colour Flipper</div>
+            <div class="left">
+                <span class="sea"><a href="./03_colour_flipper.html">Simple</a></span>
+                <span class="seaa"><a href="./03_hex.html">Hex</a></span>
+            </div>
+        </div>
+        <div class="down" id="cha">
+            <div class="text1">Background Color : <span id="col"> &nbsp;Crimson</span></div>
+            <div class="text2">
+                <button onclick="color()">Click Me</button>
+            </div>
+            <div class="any">
+                <select name="" id="chose">
+                    <option value="">CHOSE YOUR COLOR</option>
+                    <option value="" onclick="change1()" id="op1">MAROON</option>
+                    <option value="" onclick="change2()" id="op2">RED</option>
+                    <option value="" onclick="change3()" id="op3">PURPLE</option>
+                    <option value="" onclick="change4()" id="op4">FUCHSIA</option>
+                    <option value="" onclick="change5()" id="op5">GREEN</option>
+                    <option value="" onclick="change6()" id="op6">LIME</option>
+                    <option value="" onclick="change7()" id="op7">OLIVE</option>
+                    <option value="" onclick="change8()" id="op8">YELLOW</option>
+                    <option value="" onclick="change9()" id="op9">NAVY</option>
+                    <option value="" onclick="change10()" id="op10">BLUE</option>
+                    <option value="" onclick="change11()" id="op11">ORANGE</option>
+                </select>
+            </div>
+        </div>
+    </div>
+<script src="03_colour_flipper.js"></script>
+</body>
+</html>

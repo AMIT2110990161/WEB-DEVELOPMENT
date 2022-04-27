@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #btn{
+        padding: 10px 14px;
+        background-color: chocolate;
+        border-radius: 8px;
+    }
+</style>
+<body>
+    <!--Browser events
+
+    click
+    contextmenu
+    mouseover/mouseout
+    mousedown/mouseup
+    mousemove
+
+    submit
+    focus
+
+    DOMcontantloaded
+
+    transitionend -->  
+    <h1>this is a heading</h1>
+    <p id="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui numquam culpa sit nulla, aperiam nostrum harum dignissimos? Quae reprehenderit blanditiis, voluptate, voluptates impedit, perspiciatis voluptatem laboriosam quibusdam nesciunt hic adipisci a et tenetur alias autem atque ea iure laborum magnam itaque delectus eum consequuntur. Eius nulla quaerat aut, id animi doloremque aliquid suscipit non eaque beatae et quia dolore qui incidunt ducimus sed distinctio. Alias, dolorum! Incidunt quaerat ex nesciunt fugiat perferendis, sed natus porro possimus laboriosam rem iure at! Quam sed qui quo veritatis tempore voluptates. Distinctio eveniet nesciunt debitis sunt soluta hic accusamus rem repellendus beatae blanditiis quos consequatur quod, provident dolore odio quas veniam quibusdam! Minima repellendus voluptates rem facere, quidem, sint unde et eveniet, soluta reiciendis ullam esse ipsam nisi tempore. Nulla perspiciatis quae ratione asperiores nemo sit. Aliquam quae saepe, ut maiores eligendi animi earum excepturi obcaecati neque veritatis. Nemo, eligendi odit! Perferendis doloribus quaerat totam necessitatibus perspiciatis atque hic unde. Nam nostrum quisquam quam praesentium doloribus! Ad, omnis mollitia in id reprehenderit magni sed, suscipit ratione ea accusamus officiis beatae! Illo fugiat aliquid temporibus, hic soluta voluptatem vitae iusto doloribus optio dolor quibusdam ea impedit accusamus ad quo assumenda facere culpa eum harum mollitia dolorum officia. Possimus, eveniet! Est eum enim dicta sint odit porro sunt. Aspernatur necessitatibus in nostrum voluptatem enim consequatur alias soluta eum fugiat eos eius natus excepturi quo odio explicabo iure, hic voluptatibus impedit architecto earum!</p>
+    <p id="pa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, possimus nam error quidem amet odit harum illo minima, eum cupiditate non aliquam voluptates!</p>
+    <button id="btn" onclick="hide()">show/hide</button>
+    <button id="asdf" onclick="grun()">click here</button>
+</body>
+<script>
+    para.addEventListener('mouseover', function run(){
+        console.log('you are in para')
+    })
+    function hide(){
+        if(para.style.display != 'none'){
+            para.style.display = 'none'
+        }
+        else{
+            para.style.display = 'block'
+        }
+    }
+    function grun(){
+        if(pa.style.display != 'none'){
+            pa.style.display = 'none'
+        }
+        else{
+            pa.style.display = 'block'
+        }
+
+    }
+        
+        
+
+</script>
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   
+  </head>
+    <style>
+    body{margin: 0;
+     font-family: cursive;
+    } 
+
+
+
+
+
+
+    .parallax{ background-image: url(image.jpg);
+    width: 100%;
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .page-title
+    {background: rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 100px;
+    font-family: fantasy;
+    letter-spacing: 20px;
+    }
+    .sticky{
+    position: fixed;
+    }
+    .menu{
+    background: #184d47;
+    text-align: center;
+    position: sticky;
+    }
+    .menu-ul{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    }
+    .menu-ul  li{
+    font-size: 17px;
+    list-style: none;
+    display: inline-block;
+    padding: 25px 25px 26px 25px;
+    }
+    .a-menu{
+    text-decoration: none;
+    color: white;
+    }
+    .menu-ul  li:hover{
+    background: #5b8c5a;
+    }
+
+.search-box{
+    border: 1px solid white;
+    border-radius: 50px;
+    background: white;
+    width: max-content;
+    display: inline-block;
+    margin: 8px;
+    text-align: center;
+    }
+
+    .search-box:hover{
+    box-shadow: 0 0 10px 2px #5b8c5a;
+    border: 1px solid #5b8c5a ;
+    }
+
+    .search-input{
+    width: 250px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+    margin: 15px 0 0 10px;
+    }
+    i{
+    font-size: 20px;
+    margin: 0 10px 0 0;
+    }
+    button{
+    background: transparent;
+    border: none;
+    outline: none;
+    }
+
+    .flex-container{
+    margin-left: 8px;
+    display: flex;
+    height: 1791px;
+    width: 100%;
+    background-color: rgb(253, 247, 247);
+    justify-content: space-between;
+    margin-top: 59px;
+    flex-wrap: wrap;
+    
+}
+    
+    .flex-container div img{
+    height: 303px;
+    width: 308px;
+    border: 3px solid green;
+    }
+    .ab{
+    text-align: center;
+    font-size: 28px;
+    font-family: cursive;
+    color: black;
+    }
+    .flex{
+    height: 292px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(56, 51, 51);
+    margin-top: 18px;
+    }
+
+    .xy{
+    text-decoration: none;
+    color: white;}
+    .xy:hover{
+        text-decoration: underline;
+        color: rgb(160, 88, 88);
+    }
+    .flexa{
+        display: flex;
+        width: 1256px;
+        height: 372px;
+        background-color: white;
+    }
+    .div7{
+        margin-top: 56px;
+    }
+    .ad{
+        display: flex;
+        flex-basis: 100%;
+        height: 38px;
+        background-color: grey;
+        justify-content: center;
+    }
+    .ba{
+        color: white;
+    }
+
+    </style>
+
+<body>
+    <div class="parallax">
+       <div class="page-title">Eat Fresh</div>
+    </div>
+    <div class="menu" id="sticky">
+    <ul class="menu-ul">
+    <a href="#" class="a-menu"><li>Home</li></a>
+    <a href="#" class="a-menu"><li>Deals</li></a>
+    <a href="#" class="a-menu"><li>Vegetables</li></a>
+    <a href="http://127.0.0.1:5501/fruits.html" class="a-menu"><li>Fruits</li></a>
+    <a href="#" class="a-menu"><li>Oil</li></a>
+    <a href="#" class="a-menu"><li>Cart</li></a>
+    </ul>
+    <div class="search-box">
+        <form>
+            <input type="text" placeholder="search." name="Search" class="search-input"/>
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+
+    </div>-+
+    
+    </div>
+    
+   <div class="flex-container">
+       <div class="div1">
+           <a href=""><img src="vegetable12.jpg"></a>
+           <div class="ab">Vegetables</div> 
+        </div>
+       <div class="div2">
+           <a href="http://127.0.0.1:5501/fruits.html"><img src="fruits12.jpg"></a>
+           <div class="ab">Fruits</div>
+        </div>
+        <div class="div3">
+           <a href="#"> <img src="flour.jpg"></a>
+            <div class="ab">Atta and Flour</div>
+        </div>
+        <div class="div4">
+          <a href="http://127.0.0.1:5501/brands%20Nestle.html"><img src="nestle.jpeg" style="width: 479px;height: 296px; border: white;"></a>
+        </div>
+        <div class="div1">
+            <a href="#"><img src="Britannia.jpeg" style="width: 479px; height: 296px; border: white;"></a>
+        </div>
+        <div class="div1">
+         <a href="http://127.0.0.1:5501/pulses.html">  <img src="dal2.png"></a>
+           <div class="ab">Pulses</div>
+        </div>
+        <div class="div2">
+            <a href="http://127.0.0.1:5501/biscuit1.html"><img src="cookies.jpg"></a>
+            <div class="ab">Biscuit and Cokkies</div>
+        </div>
+        <div class="div3">
+           <a href="#"> <img src="Oil.jpg"></a>
+          <div class="ab">Oil</div>
+        </div>
+        <div class="div4">
+            <a href="http://127.0.0.1:5501/haldiram%20home%20page.html"><img src="Haldiram.jpeg" style="width: 479px;height: 296px; border: white;"></a>
+          </div>
+          <div class="div4">
+            <a href="#"><img src="Fortune.jpeg" style="width: 479px;height: 296px; border: white;"></a>
+          </div>
+        <div class="div1">
+            <a href="#"><img src="drinks.jpg"></a>
+           <div class="ab">Drinks</div>
+        </div>
+        <div class="div2">
+            <a href="http://127.0.0.1:5501/Maggi%20Home%20page.html"><img src="maggi.jpg"></a>
+            <div class="ab">Maggi and Pasta</div>
+        </div>
+        <div class="div3">
+        <a href="./haldiram home page.html"> <img src="paste.jpg"></a>
+         <div class="ab">Toothpaste</div>
+        </div>
+        </div>
+
+        
+
+
+
+      <div class="flexa">
+          <div class="div1">
+              <div style="font-size: 40px; margin-left: 12px;
+              font-family: cursive; background-color: rgb(202, 201, 201);">UPTO 40% OFF</div>
+          <a href="http://127.0.0.1:5501/dettol.html"><img src="dettol.webp" style="width: 314px;"></a>
+          </div>
+          <div class="div7">
+          <a href="http://127.0.0.1:5501/dettol2.html"><img src="dettol2.jpg" style="height: 314px; width: 314px;"></a>
+          </div>
+          <div class="div7">
+          <a href="http://127.0.0.1:5501/dettol3.html"><img src="dettol3.jpg" style="height: 314px; width: 314px;"></a>
+          </div>
+          <div class="div7">
+            <a href="http://127.0.0.1:5501/handwash.html"><img src="handwash.jpg" style="height: 314px; width: 314px;"></a>
+            </div>
+
+
+      </div>
+
+
+
+      <div class="ad">
+         <a href="#" style="text-decoration: none; font-size: 23px; font-family: cursive; color: black;"><b> Back to Top</b></a>
+
+      </div>
+
+
+
+
+
+
+
+
+
+     
+
+
+
+   <div class="flex">
+       <div class="ba" style="margin-top: 42px; margin-left: 124px;" >
+           <b>Get to know us</b><br><br><div><a href="#" class="xy">About Us</a></div><br><div><a href="#" class="xy">Careers</a></div><br><div><a href="#" class="xy">Press Releases</a></div><br><div><a href="#" class="xy">Gift a smile</a></div>
+       </div>
+       <div class="ba" style="margin-top: 42px; margin-left: 300px;" >
+        <b class="ba">Contact Us</b><br><br><div><a href="#" class="xy">Facebook</a></div><br><div><a href="#" class="xy">Instagram</a></div><br><div><a href="#" class="xy">Twitter</a></div></a>
+     </div>
+
+     <div class="ba" style="margin-top: 42px; margin-left: 284px;" >
+         <b >Let Us Help U</b><br><br><div><a href="#" class="xy">Covid-19</a></div><br><div><a href="#" class="xy">Your Account</a></div><br><div><a href="#" class="xy">Return Center</a></div><br><div><a href="#" class="xy">100% Purchase Protection</a></div></a>
+     </div>
+
+   </div>
+
+
+
+   
+
+
+
+
+
+    </body>

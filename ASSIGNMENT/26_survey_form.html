@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Bebas+Neue&family=Mochiy+Pop+P+One&family=Oswald:wght@200&family=Rajdhani:wght@300&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+    body {
+        background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+        color: #f3f3f3;
+    }
+
+    .upperheading {
+        text-align: center;
+        margin-top: 5%;
+        font-weight: 100;
+    }
+
+    .upperheading h3 {
+        font-family: 'Rajdhani', sans-serif;
+        margin-top: -18px;
+        font-style: italic;
+    }
+
+    .formbody {
+        background-color: rgba(27, 27, 50, 0.8);
+        width: 550px;
+        display: block;
+        margin: auto;
+        color: #f3f3f3;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 35px;
+        padding: 35px;
+        border-radius: 2px;
+    }
+
+    .form1 input {
+        width: 541px;
+        height: 28px;
+        display: block;
+        margin: auto;
+    }
+
+    .formbody select {
+        width: 548px;
+        height: 35px;
+        display: block;
+        margin: auto;
+    }
+
+    button {
+        width: 554px;
+        height: 35px;
+        display: block;
+        margin: auto;
+        margin-top: 23px;
+        font-size: 22px;
+        background-color: rgb(33 158 2);
+    }
+</style>
+
+<body>
+    <div class="upperheading">
+        <h1>RAGA100 Survey Form</h1>
+        <h3>Thank you for taking the time to help us improve the platform</h3>
+    </div>
+    <div class="formbody">
+        <form action="">
+            <div class="form1">
+                Name <br>
+                <input type="text"> <br>
+                Email <br>
+                <input type="text"> <br>
+                Age(optional) <br>
+                <input type="number" min="10" max="60">
+            </div> <br>
+            Which option best describes your current role? <br>
+            <select name="" id="">
+                <option value="">Select current role</option>
+                <option value="">Student</option>
+                <option value="">Full Time Job</option>
+                <option value="">Full Time Leaner</option>
+                <option value="">Prefer Not To Say</option>
+                <option value="">Other</option>
+            </select> <br>
+            <div class="form">
+                Would you recommend freeCodeCamp to a friend?<br>
+                <input type="radio">Definitely <br>
+                <input type="radio">Maybe <br>
+                <input type="radio">Not sure
+            </div> <br>
+            What is your favorite feature of freeCodeCamp? <br>
+            <select name="" id="">
+                <option value="">Select an Option</option>
+                <option value="">Challenges</option>
+                <option value="">Projects</option>
+                <option value="">Community</option>
+                <option value="">Open Source</option>
+            </select> <br>
+            <div class="check">
+                What would you like to see improved? (Check all that apply) <br>
+                <input type="checkbox">Front-end Projects <br>
+                <input type="checkbox">Back-end Projects <br>
+                <input type="checkbox">Data Visualization <br>
+                <input type="checkbox">Challenges <br>
+                <input type="checkbox">Open Source Community <br>
+                <input type="checkbox">Gitter help rooms <br>
+                <input type="checkbox">Videos <br>
+                <input type="checkbox">City Meetups <br>
+                <input type="checkbox">Wiki <br>
+                <input type="checkbox">Forum <br>
+                <input type="checkbox">Additional Courses <br>
+            </div>
+            <div class="end">
+                <h3>Any comments or suggestions?</h3>
+                <textarea name="" id="" cols="72" rows="10"></textarea>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #monimg{
+        font-size: 150px;
+        display: inline-flex;
+        justify-content: center;
+        align-content: center;
+        cursor: pointer;
+        margin-left: 500px;
+    }
+</style>
+<body>
+    <div class="monkeyimg">
+        <span id="monimg" onclick="change()">🙈</span>
+    </div>
+</body>
+<script>
+    function change(){
+        if (monimg == "🙈"){
+            monimg.innerHTML = "🙉"
+
+        }
+        else if (monimg == "🙉") {
+            monimg.innerHTML = "🙈"
+        }
+    }
+
+</script>
+</html>

@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background-color: hsl(206deg 33% 96%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 130px;
+}
+button{
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 8px;
+    margin: 0px 18px;
+    width: 125px;
+    padding: 5px 0px;
+}
+#number{
+    font-size: 150px;
+    margin-top: -125px;
+    color: black;
+    
+}
